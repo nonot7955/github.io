@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+
+/*レスポンシブデザイン*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*レスポンシブデザイン終了*/
+header {
+    height: 70px;
+    width: 100%;
+
+}
+.btn{
+    background-color: #df1c13;
+    border-radius: 4px;
+}
+a {
+    color: #34362f;
+}
+a:hover{
+    color: #df1c13;
+}
+.logo {
+    width: 279px;
+    height: 56px;
+    position: absolute;
+
+}
+
+.logo img {
+    width: 279px;
+    height: 56px;
+    margin: 20px 50px 0 70px;
+}
+
+.global-nav {
+    font-size: 12px;
+    height: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 910px;
+    margin-bottom: 20px
+}
+
+.global-nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.global-nav li a {
+    text-decoration: none;
+}
+
+.global-nav2 {
+    height: 20px;
+    font-weight: 400;
+    margin-left: 450px;
+}
+
+.global-nav2 li {
+    display: inline-block;
+    padding: 0 20px
+}
+
+.global-nav2 li a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+.Registration{
+padding: 2px;    
+}
+.Registration a{
+    display: inline-block;
+    color:#fff;
+}
+.Registration a:hover{
+    background-color:#FF2016 ;
+}
+.main{
+    background-image: url(../image/agreement-2548138_1920.jpg);
+    height: 600px;
+    background-color: rgba(0,0,0,0.5)
+}
+.main h1,p{
+    color:#fff;
+}
+.main h1{
+    font-size: 40px;
+    text-align: center;
+        padding-top: 200px;
+}
+.sub-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.free {
+    display: block;
+    font-size: 1em;
+    width:230px;
+    height: 40px;
+    color:#fff;
+    margin-right: 10px;
+}
+.free ,  ul{
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+}
+.login{
+    display: block;
+    font-size: 1em;
+    width:230px;
+    height: 40px;
+    background-color: #fff;
+    color:black;
+}
+.login , ul{
+     display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+}
